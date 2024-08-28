@@ -14,9 +14,9 @@ const Header: React.FC = () => {
                 <Link to="/"><h1 className="header-center">Maharashtra Drone Mission</h1></Link>
                 <nav className="header-right">
                     <ul>
-                        <li><a href="/">Home</a></li>
-                        <li><a href="/team">Team</a></li>
-                        <li><a href="/projects">Projects</a></li>
+                        <li><Link to="/">Home</Link></li>
+                        <li><Link to="/team">Team</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
                     </ul>
                 </nav>
             </div>

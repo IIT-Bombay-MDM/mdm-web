@@ -1,0 +1,14 @@
+[
+    {
+        "name": "John Doe",
+        "role": "Developer",
+        "description": "John is a senior developer with over 10 years of experience in full-stack development.",
+        "image": "/assets/images/person_placeholder.jpg"
+    },
+    {
+        "name": "Jane Smith",
+        "role": "Designer",
+        "description": "Jane is a creative designer with a passion for user-centered design and digital art.",
+        "image": "/assets/images/person_placeholder.jpg"
+    }
+]

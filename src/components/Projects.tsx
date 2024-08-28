@@ -1,17 +1,15 @@
 import React from 'react';
+import projectData from '../data/projects.json';
 
 interface Project {
   name: string;
   description: string;
 }
 
-const projects: Project[] = [
-  { name: 'Project A', description: 'Description of Project A...' },
-  { name: 'Project B', description: 'Description of Project B...' },
-];
-const repeatedProjects: Project[] = Array(10).fill(projects).flat();
-
 const Projects: React.FC = () => {
+  const projects: Project[] = projectData;
+  const repeatedProjects: Project[] = Array(10).fill(projects).flat();
+
   return (
     <div className="container">
       <div className="projects">

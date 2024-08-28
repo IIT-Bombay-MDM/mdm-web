@@ -29,7 +29,7 @@ h3 {
 header {
     background-color: #004f9f;
     color: white;
-    padding: 10px 20px; /* Padding around logo and text */
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -95,15 +95,11 @@ nav ul {
     justify-content: flex-end;
 }
 
-nav ul li {
-    margin: 0 15px;
-}
-
 nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: 0 15px;
     text-decoration: none;
     transition: background-color 0.3s;
 }

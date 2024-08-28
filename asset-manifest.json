@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/mdm-web/static/css/main.b308bb87.css",
+    "main.js": "/mdm-web/static/js/main.343bc86b.js",
+    "static/js/684.1221280d.chunk.js": "/mdm-web/static/js/684.1221280d.chunk.js",
+    "static/media/iitb.png": "/mdm-web/static/media/iitb.a31ea49b5e2f18206d5c.png",
+    "index.html": "/mdm-web/index.html",
+    "main.b308bb87.css.map": "/mdm-web/static/css/main.b308bb87.css.map",
+    "main.343bc86b.js.map": "/mdm-web/static/js/main.343bc86b.js.map",
+    "684.1221280d.chunk.js.map": "/mdm-web/static/js/684.1221280d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b308bb87.css",
+    "static/js/main.343bc86b.js"
+  ]
+}

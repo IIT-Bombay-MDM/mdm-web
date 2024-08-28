@@ -29,50 +29,62 @@ h3 {
 header {
     background-color: #004f9f;
     color: white;
-    padding: 20px;
-    text-align: center;
+    padding: 10px 20px; /* Padding around logo and text */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
     display: flex;
     align-items: center;
-    justify-content: center; /* Center content horizontally */
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0; /* Prevents the logo and text from shrinking */
 }
 
 .header-logo {
-    width: 100px;
+    width: 80px;
     height: auto;
-    margin-right: 20px;
-    /* float: left;
-    padding-right: 20%; */
+    margin-right: 10px;
 }
 
-.header-text {
-    text-align: left;
-}
-
-header h1 {
+.header-left h2 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 1.5em;
     color: white;
+}
+
+.header-center {
+    margin: 0;
+    font-size: 2em;
+    text-align: center;
+    flex-grow: 1; /* Ensures it takes up available space */
+    color: white;
+}
+
+.header-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0; /* Prevents the navbar from shrinking */
 }
 
 header a {
     text-decoration: none;
 }
 
-header p {
-    margin: 5px 0 0;
-    font-size: 1.2em;
-    color: white;
-}
-
 /* Navbar */
 nav {
-    background-color: #000;
+    background-color: transparent; /* Make navbar background transparent */
     overflow: hidden;
-    margin-bottom: 20px;
+    margin-bottom: 0; /* Remove any margin below the navbar */
 }
 
 nav ul {
@@ -80,7 +92,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
 nav ul li {
@@ -91,36 +103,19 @@ nav ul li a {
     display: block;
     color: white;
     text-align: center;
-    padding: 14px 20px;
+    padding: 10px 15px;
     text-decoration: none;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #575757;
+    /* background-color: #00274e; */
+    text-decoration: underline;
 }
 
 .home-text {
     margin-left: 20px;
-    /* text-align: center; */
 }
-
-/* Centered Grid Layout for Team and Projects */
-/* .grid-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-} */
-
-/* .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px;
-    justify-content: center;
-    max-width: 100%;
-    margin: 0 auto;
-} */
 
 .grid {
     display: flex;

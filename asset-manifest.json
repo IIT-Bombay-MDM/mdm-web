@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mdm-web/static/css/main.b308bb87.css",
-    "main.js": "/mdm-web/static/js/main.f59778b4.js",
+    "main.css": "/mdm-web/static/css/main.22a5d2fa.css",
+    "main.js": "/mdm-web/static/js/main.43220a59.js",
     "static/js/684.1221280d.chunk.js": "/mdm-web/static/js/684.1221280d.chunk.js",
     "static/media/iitb.png": "/mdm-web/static/media/iitb.a31ea49b5e2f18206d5c.png",
     "index.html": "/mdm-web/index.html",
-    "main.b308bb87.css.map": "/mdm-web/static/css/main.b308bb87.css.map",
-    "main.f59778b4.js.map": "/mdm-web/static/js/main.f59778b4.js.map",
+    "main.22a5d2fa.css.map": "/mdm-web/static/css/main.22a5d2fa.css.map",
+    "main.43220a59.js.map": "/mdm-web/static/js/main.43220a59.js.map",
     "684.1221280d.chunk.js.map": "/mdm-web/static/js/684.1221280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b308bb87.css",
-    "static/js/main.f59778b4.js"
+    "static/css/main.22a5d2fa.css",
+    "static/js/main.43220a59.js"
   ]
 }

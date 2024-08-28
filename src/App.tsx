@@ -10,7 +10,7 @@ import './App.css';
 
 const App: React.FC = () => {
   return (
-    <Router>
+    <Router basename="/mdm-web">
       <Header />
       <Navbar />
       <Routes>

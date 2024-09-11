@@ -149,27 +149,6 @@ nav ul li a:hover {
     }
 }
 
-/* Specific adjustments for projects grid items */
-.projects .grid-item {
-    width: 300px;
-    height: 200px;
-}
-
-/* Adjustments for projects on smaller screens */
-@media (max-width: 768px) {
-    .projects-container .grid-item {
-        width: 250px; /* Adjusted width for tablets */
-        height: 180px; /* Adjusted height for tablets */
-    }
-}
-
-@media (max-width: 480px) {
-    .projects-container .grid-item {
-        width: 100%; /* Full width for very small screens */
-        height: auto; /* Auto height to maintain aspect ratio */
-    }
-}
-
 .grid-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);

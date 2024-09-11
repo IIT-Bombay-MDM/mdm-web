@@ -6,9 +6,9 @@ interface TeamMember {
     name: string;
     role: string;
     description: string;
-    image: string;  // Path to the image file
+    image: string;
+    level: number;
 }
-
 
 const Team: React.FC = () => {
     const [teamMembers, setTeamMembers] = useState<TeamMember[]>([]);
@@ -18,7 +18,16 @@ const Team: React.FC = () => {
         setTeamMembers(teamData)
     }, []);
 
-    const repeatedTeamMembers: TeamMember[] = Array(10).fill(teamMembers).flat();
+    const groupByLevel = (members: TeamMember[]) => {
+        const grouped: { [key: number]: TeamMember[] } = {};
+        members.forEach((member) => {
+            if (!grouped[member.level]) {
+                grouped[member.level] = [];
+            }
+            grouped[member.level].push(member);
+        });
+        return grouped;
+    };
 
     const handleMemberClick = (member: TeamMember) => {
         setSelectedMember(member);
@@ -28,26 +37,55 @@ const Team: React.FC = () => {
         setSelectedMember(null);
     };
 
+    const groupedMembers = groupByLevel(teamMembers);
+
     return (
         <div className="container">
             <h2 className="team-header">Meet Our Team</h2>
-            <div className="grid">
-                {/* todo: remove repeated members */}
-                {repeatedTeamMembers.map((member) => (
-                    <div
-                        key={member.name}
-                        className="grid-item"
-                        onClick={() => handleMemberClick(member)}
-                    >
-                        <img src={process.env.PUBLIC_URL + member.image} alt={member.name} />
-                        <h3>{member.name}</h3>
-                        <p>{member.role}</p>
+            {/* Iterate over each level and display members in separate rows */}
+            {Object.keys(groupedMembers).map((level) => (
+                <div key={level} className="team-level">
+                    <div className="grid">
+                        {groupedMembers[parseInt(level)].map((member) => (
+                            <div
+                                key={member.name}
+                                className="grid-item"
+                                onClick={() => handleMemberClick(member)}
+                            >
+                                <img
+                                    src={process.env.PUBLIC_URL + member.image}
+                                    alt={member.name}
+                                />
+                                <h3>{member.name}</h3>
+                                <p>{member.role}</p>
+                            </div>
+                        ))}
                     </div>
-                ))}
-            </div>
+                </div>
+            ))}
             {selectedMember && <Popup member={selectedMember} closePopup={closePopup} />}
         </div>
     );
+
+    // return (
+    //     <div className="container">
+    //         <h2 className="team-header">Meet Our Team</h2>
+    //         <div className="grid">
+    //             {teamMembers.map((member) => (
+    //                 <div
+    //                     key={member.name}
+    //                     className="grid-item"
+    //                     onClick={() => handleMemberClick(member)}
+    //                 >
+    //                     <img src={process.env.PUBLIC_URL + member.image} alt={member.name} />
+    //                     <h3>{member.name}</h3>
+    //                     <p>{member.role}</p>
+    //                 </div>
+    //             ))}
+    //         </div>
+    //         {selectedMember && <Popup member={selectedMember} closePopup={closePopup} />}
+    //     </div>
+    // );
 };
 
 export default Team;

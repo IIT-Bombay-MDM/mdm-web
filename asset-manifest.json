@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mdm-web/static/css/main.22a5d2fa.css",
-    "main.js": "/mdm-web/static/js/main.9b8dc843.js",
+    "main.css": "/mdm-web/static/css/main.33458d3a.css",
+    "main.js": "/mdm-web/static/js/main.acb9af40.js",
     "static/js/684.1221280d.chunk.js": "/mdm-web/static/js/684.1221280d.chunk.js",
     "static/media/iitb.png": "/mdm-web/static/media/iitb.39e360a7ae787689cca3.png",
     "index.html": "/mdm-web/index.html",
-    "main.22a5d2fa.css.map": "/mdm-web/static/css/main.22a5d2fa.css.map",
-    "main.9b8dc843.js.map": "/mdm-web/static/js/main.9b8dc843.js.map",
+    "main.33458d3a.css.map": "/mdm-web/static/css/main.33458d3a.css.map",
+    "main.acb9af40.js.map": "/mdm-web/static/js/main.acb9af40.js.map",
     "684.1221280d.chunk.js.map": "/mdm-web/static/js/684.1221280d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22a5d2fa.css",
-    "static/js/main.9b8dc843.js"
+    "static/css/main.33458d3a.css",
+    "static/js/main.acb9af40.js"
   ]
 }

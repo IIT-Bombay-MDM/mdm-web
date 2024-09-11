@@ -1,11 +1,13 @@
 import React from 'react';
+import { homeData } from '../data/text.js';
 
 const Home: React.FC = () => {
     return (
         <div className="container">
             <div className="home-text">
-                <h2>Welcome to our Institute</h2>
-                <p>This is the home page content.</p>
+                {homeData.text.split('\n').map((line, index) => (
+                    <p key={index}>{line}</p>
+                ))}
             </div>
         </div>
     );

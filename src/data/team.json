@@ -1,14 +1,32 @@
 [
     {
-        "name": "John Doe",
+        "name": "Palak Oza",
         "role": "Developer",
-        "description": "John is a senior developer with over 10 years of experience in full-stack development.",
+        "description": "I am a B.E. in Computer Engineering specializing in computer vision and LiDAR data analysis. My experience includes developing ML models focusing on detection, segmentation, and explainability to enhance operational insights and performance.",
         "image": "/assets/images/person_placeholder.jpg"
     },
     {
-        "name": "Jane Smith",
-        "role": "Designer",
-        "description": "Jane is a creative designer with a passion for user-centered design and digital art.",
+        "name": "Sakshi Pandey",
+        "role": "Research Student",
+        "description": "I’m a MS in CSE student at the IIT Bombay, specializing in Intelligence Systems. My research advisor is Ganesh Ramakrishnan. I'm currently working on Image Synthesis and Diffusion models.",
+        "image": "/assets/images/person_placeholder.jpg"
+    },
+    {
+        "name": "Anand Patel",
+        "role": "Research Student",
+        "description": "I am a MS in CSE student at IIT-Bombay. I am working on project \"Suspicious Person Identification and Tracking\". My research focus is on \"Suspicious Behaviour Detection in Crowds\" using Deep Learning.",
+        "image": "/assets/images/person_placeholder.jpg"
+    },
+    {
+        "name": "Shasmith Krishna",
+        "role": "Research Student",
+        "description": "I am a B.Tech student in CSE at IIT Bombay. I have experience in Deep Learning algorithms for Computer Vision. My research focus is to generate image datasets for different image machine learning tasks.",
+        "image": "/assets/images/person_placeholder.jpg"
+    },
+    {
+        "name": "Sakshi Srivastava",
+        "role": "Developer",
+        "description": "I am a BTech student in CSE at AKTU. I am working on Explainable AI methods for Computer Vision and Drone use cases for Maharashtra Drone Mission. My research  focus is ML model development and Image Segmentation.",
         "image": "/assets/images/person_placeholder.jpg"
     }
 ]

@@ -1,37 +1,100 @@
 [
     {
         "name": "Palak Oza",
-        "role": "Developer",
+        "role": "Project Technical Assistant",
         "description": "I am a B.E. in Computer Engineering specializing in computer vision and LiDAR data analysis. My experience includes developing ML models focusing on detection, segmentation, and explainability to enhance operational insights and performance.",
         "image": "/assets/images/person_placeholder.jpg",
-        "level": 0
+        "level": 3
     },
     {
         "name": "Sakshi Pandey",
         "role": "Research Student",
-        "description": "I’m a MS in CSE student at the IIT Bombay, specializing in Intelligence Systems. My research advisor is Ganesh Ramakrishnan. I'm currently working on Image Synthesis and Diffusion models.",
+        "description": "I'm a MS in CSE student at the IIT Bombay, specializing in Intelligence Systems. My research advisor is Ganesh Ramakrishnan. I'm currently working on Image Synthesis and Diffusion models.",
         "image": "/assets/images/person_placeholder.jpg",
-        "level": 0
+        "level": 3
     },
     {
         "name": "Anand Patel",
         "role": "Research Student",
         "description": "I am a MS in CSE student at IIT-Bombay. I am working on project \"Suspicious Person Identification and Tracking\". My research focus is on \"Suspicious Behaviour Detection in Crowds\" using Deep Learning.",
         "image": "/assets/images/person_placeholder.jpg",
-        "level": 1
+        "level": 3
     },
     {
         "name": "Shasmith Krishna",
         "role": "Research Student",
         "description": "I am a B.Tech student in CSE at IIT Bombay. I have experience in Deep Learning algorithms for Computer Vision. My research focus is to generate image datasets for different image machine learning tasks.",
         "image": "/assets/images/person_placeholder.jpg",
-        "level": 1
+        "level": 3
     },
     {
         "name": "Sakshi Srivastava",
-        "role": "Developer",
+        "role": "Engineer",
         "description": "I am a BTech student in CSE at AKTU. I am working on Explainable AI methods for Computer Vision and Drone use cases for Maharashtra Drone Mission. My research  focus is ML model development and Image Segmentation.",
         "image": "/assets/images/person_placeholder.jpg",
+        "level": 3
+    },
+    {
+        "name": "Himanshu",
+        "role": "Engineer",
+        "description": "I am a B.E in Computer Engineering student. My background involves research in Computer Vision, NLP and Generative AI.",
+        "image": "/assets/images/person_placeholder.jpg",
+        "level": 3
+    },
+    {
+        "name": "Saurbh Singh Jamwal",
+        "role": "Research Student",
+        "description": "Student of MS by Research in CSE Department, IIT Bombay. My area of research is Computer Vision. Currently working on Image generation and Image processing techniques. Interested in combining Robotics and Artificial Intelligence.",
+        "image": "/assets/images/person_placeholder.jpg",
+        "level": 3
+    },
+    {
+        "name": "Vikram Bansal",
+        "role": "Project Scientist",
+        "description": "Project scientist at MDM project. I did my MS in Biomedical Engineering, specializing in Biomechanics from University of texas, Austin. I am currently persuing my PhD from IIT Bombay.",
+        "image": "/assets/images/person_placeholder.jpg",
         "level": 2
+    },
+    {
+        "name": "Ajoy Raj Dattaram",
+        "role": "Project Manager",
+        "description": "Project scientist at MDM project. I did my MS in Biomedical Engineering, specializing in Biomechanics from University of texas, Austin. I am currently persuing my PhD from IIT Bombay.",
+        "image": "/assets/images/person_placeholder.jpg",
+        "level": 2
+    },
+    {
+        "name": "Om Wagh",
+        "role": "Engineer",
+        "description": "I am a B.E in E&Tc with honours in Data Science. I have worked upon Explainable AI methods and currently working to build a model for Identification of Internal Human Injury.",
+        "image": "/assets/images/person_placeholder.jpg",
+        "level": 3
+    },
+    {
+        "name": "Sujal Bolia",
+        "role": "Project Technical Assistant",
+        "description": "I'm a Computer Science graduate from the University of British Columbia. I'm currently working on explainable and re-identification.",
+        "image": "/assets/images/person_placeholder.jpg",
+        "level": 3
+    },
+    {
+        "name": "Ganesh Ramakrishna",
+        "role": "co-PI CSE Department",
+        "description": "https://www.cse.iitb.ac.in/~ganesh/",
+        "image": "/assets/images/ganeshramakrishnan.png",
+        "level": 1
+    },
+    {
+        "name": "Rohit Saluja",
+        "role": "Helping Faculty",
+        "description": "https://rohitsaluja22.github.io",
+        "image": "/assets/images/rohit.jpeg",
+        "level": 1
+    },
+    {
+        "name": "Arnab Maity",
+        "role": "PI MDM Project",
+        "description": "https://www.aero.iitb.ac.in/home/people/faculty/arnab",
+        "image": "/assets/images/Photo_Arnab_Maity.jpg",
+        "level": 0
     }
 ]

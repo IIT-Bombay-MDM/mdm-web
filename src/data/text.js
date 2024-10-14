@@ -1,7 +1,7 @@
 export const homeData = [
     {
-        title: "Indian Institute of Technology, Bombay",
-        text: "Info about IIT Bombay",
+        title: "Indian Institute of Technology Bombay",
+        text: "The Indian Institute of Technology Bombay (IIT Bombay) is a public research university and technical institute in Mumbai, Maharashtra, India.",
     },
     {
         title: "Maharashtra Drone Mission",
@@ -9,6 +9,6 @@ export const homeData = [
     },
     {
         title: "IIT and MDM",
-        text: "Relate IIT with MDM",
+        text: "The MDM is a statewide drone program bringing together academic and research institutions, government, industries, and youth for development of Maharashtra through drone technology, with IIT Bombay serving as the Headquarter (Nodal) drone centre. This mission aims to develop a safe and reliable integrated ecosystem for drones with distributed autonomy, which can be used for both urban and rural areas. This drone ecosystem will be pivotal in advancing the technology and the industry, and most importantly smooth and efficient integration into our airspace and communities at large. An ecosystem is an environment with a collection of entities that are interconnected, interdependent and governed by some general rules, and a drone ecosystem is no different. As a matter of fact, it is an ecosystem that is evolving at breakneck speed and is constantly changing. To enable the same, IIT Bombay intends to establish a “Centre of Excellence (CoE) in Drone and Anti-Drone Technology”, which will act as the Headquarter (Nodal) drone centre of MDM. Please note that, IIT Bombay is working on the official formation of this CoE with constitution of various decision-making committees. With this in mind, our main aim is to develop cutting edge and advanced technologies for solving some of the most critical and high-risk problems as well as high-impact projects by developing a drone ecosystem in Maharashtra. In turn, transformations significantly improve quality of life for all beings in a sustainable and eco-friendly way.",
     },
 ];

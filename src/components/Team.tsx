@@ -38,6 +38,10 @@ const Team: React.FC = () => {
     };
 
     const groupedMembers = groupByLevel(teamMembers);
+    // Sort each level by name
+    Object.values(groupedMembers).forEach((teamMembers) => {
+        teamMembers.sort((a, b) => a.name.localeCompare(b.name));
+    });
 
     return (
         <div className="container">

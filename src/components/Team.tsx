@@ -40,8 +40,10 @@ const Team: React.FC = () => {
 
     const groupedMembers = groupByLevel(teamMembers);
     // Sort each level by name
-    Object.values(groupedMembers).forEach((teamMembers) => {
-        teamMembers.sort((a, b) => a.name.localeCompare(b.name));
+    Object.values(groupedMembers).forEach((teamMembers, i) => {
+        if (i > 1) {
+            teamMembers.sort((a, b) => a.name.localeCompare(b.name));
+        }
     });
 
     return (
@@ -61,8 +63,10 @@ const Team: React.FC = () => {
                                     src={process.env.PUBLIC_URL + member.image}
                                     alt={member.name}
                                 />
-                                <h3>{member.name}</h3>
-                                <p>{member.role}</p>
+                                <div className="text-container">
+                                    <h3>{member.name}</h3>
+                                    <p className="role">{member.role}</p>
+                                </div>
                             </div>
                         ))}
                     </div>
@@ -71,26 +75,6 @@ const Team: React.FC = () => {
             {selectedMember && <Popup member={selectedMember} closePopup={closePopup} />}
         </div>
     );
-
-    // return (
-    //     <div className="container">
-    //         <h2 className="team-header">Meet Our Team</h2>
-    //         <div className="grid">
-    //             {teamMembers.map((member) => (
-    //                 <div
-    //                     key={member.name}
-    //                     className="grid-item"
-    //                     onClick={() => handleMemberClick(member)}
-    //                 >
-    //                     <img src={process.env.PUBLIC_URL + member.image} alt={member.name} />
-    //                     <h3>{member.name}</h3>
-    //                     <p>{member.role}</p>
-    //                 </div>
-    //             ))}
-    //         </div>
-    //         {selectedMember && <Popup member={selectedMember} closePopup={closePopup} />}
-    //     </div>
-    // );
 };
 
 export default Team;

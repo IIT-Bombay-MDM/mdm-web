@@ -136,6 +136,25 @@ nav ul li a:hover {
     flex: 1;
 }
 
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.text-container h3 {
+    margin: 8px 0;
+    text-align: center;
+}
+
+.role {
+    margin-bottom: 8px; /* Distance from the bottom of the card */
+    text-align: center;
+}
+
 .section-image {
     width: 400px;
     height: auto;
@@ -162,7 +181,10 @@ nav ul li a:hover {
     transition: transform 0.3s, box-shadow 0.3s;
     box-sizing: border-box;
     width: 200px;
-    height: auto; /* Allow height to adjust based on content */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .team-level {

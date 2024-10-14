@@ -3,7 +3,7 @@
         "name": "Palak Oza",
         "role": "Project Technical Assistant",
         "description": "I am a B.E. in Computer Engineering specializing in computer vision and LiDAR data analysis. My experience includes developing ML models focusing on detection, segmentation, and explainability to enhance operational insights and performance.",
-        "image": "/assets/images/person_placeholder.jpg",
+        "image": "/assets/images/palak.jpeg",
         "level": 3
     },
     {
@@ -73,7 +73,7 @@
         "name": "Sujal Bolia",
         "role": "Project Technical Assistant",
         "description": "I'm a Computer Science graduate from the University of British Columbia. I'm currently working on explainable and re-identification.",
-        "image": "/assets/images/person_placeholder.jpg",
+        "image": "/assets/images/sujal.jpg",
         "level": 3
     },
     {

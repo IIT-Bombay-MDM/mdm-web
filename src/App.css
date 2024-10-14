@@ -58,6 +58,7 @@ header {
     height: auto;
     margin-right: 10px;
     background-color: white;
+    padding: 1px;
     border-radius: 10px;
     display: inline-block;
 }
@@ -123,6 +124,23 @@ nav ul li a:hover {
 
 .home-text {
     margin: 0 50px;
+}
+
+.section {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.section-image {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+    margin-top: 100px;
 }
 
 .grid {

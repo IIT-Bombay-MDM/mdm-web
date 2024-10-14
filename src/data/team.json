@@ -57,8 +57,8 @@
     },
     {
         "name": "Ajoy Raj Dattaram",
-        "role": "Project Manager",
-        "description": "Project scientist at MDM project. I did my MS in Biomedical Engineering, specializing in Biomechanics from University of texas, Austin. I am currently persuing my PhD from IIT Bombay.",
+        "role": "Assistant Project Manager",
+        "description": "Assistant Project Manager at MDM project. I did B.Sc in Mathematics from Mumbai University and MBA in International Business from ICFAI University",
         "image": "/assets/images/person_placeholder.jpg",
         "level": 2
     },
@@ -77,7 +77,7 @@
         "level": 3
     },
     {
-        "name": "Ganesh Ramakrishna",
+        "name": "Ganesh Ramakrishnan",
         "role": "co-PI CSE Department",
         "link": "https://www.cse.iitb.ac.in/~ganesh/",
         "image": "/assets/images/ganeshramakrishnan_sir.png",

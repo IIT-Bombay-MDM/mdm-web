@@ -5,7 +5,8 @@ import teamData from '../data/team.json'
 interface TeamMember {
     name: string;
     role: string;
-    description: string;
+    description?: string;
+    link?: string;
     image: string;
     level: number;
 }

@@ -52,7 +52,7 @@
         "name": "Vikram Bansal",
         "role": "Project Scientist",
         "description": "Project scientist at MDM project. I did my MS in Biomedical Engineering, specializing in Biomechanics from University of texas, Austin. I am currently persuing my PhD from IIT Bombay.",
-        "image": "/assets/images/person_placeholder.jpg",
+        "image": "/assets/images/vikram_sir.jpeg",
         "level": 2
     },
     {
@@ -79,22 +79,22 @@
     {
         "name": "Ganesh Ramakrishna",
         "role": "co-PI CSE Department",
-        "description": "https://www.cse.iitb.ac.in/~ganesh/",
-        "image": "/assets/images/ganeshramakrishnan.png",
+        "link": "https://www.cse.iitb.ac.in/~ganesh/",
+        "image": "/assets/images/ganeshramakrishnan_sir.png",
         "level": 1
     },
     {
         "name": "Rohit Saluja",
         "role": "Helping Faculty",
-        "description": "https://rohitsaluja22.github.io",
-        "image": "/assets/images/rohit.jpeg",
+        "link": "https://rohitsaluja22.github.io",
+        "image": "/assets/images/rohit_sir.jpeg",
         "level": 1
     },
     {
         "name": "Arnab Maity",
         "role": "PI MDM Project",
-        "description": "https://www.aero.iitb.ac.in/home/people/faculty/arnab",
-        "image": "/assets/images/Photo_Arnab_Maity.jpg",
+        "link": "https://www.aero.iitb.ac.in/home/people/faculty/arnab",
+        "image": "/assets/images/Arnab_Maity_sir.jpg",
         "level": 0
     }
 ]

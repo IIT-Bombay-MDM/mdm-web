@@ -20,7 +20,10 @@ const Home: React.FC = () => {
                     <div key={sectionIndex}>
                         <h3>{section.title}</h3>
                         {section.text.split('\n').map((line, index) => (
-                            <p key={index}>{line}</p>
+                            <p
+                                key={index}
+                                dangerouslySetInnerHTML={{ __html: line }}
+                            />
                         ))}
                     </div>
                 ))}

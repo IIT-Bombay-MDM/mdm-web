@@ -41,7 +41,7 @@ const Team: React.FC = () => {
     const groupedMembers = groupByLevel(teamMembers);
     // Sort each level by name
     Object.values(groupedMembers).forEach((teamMembers, i) => {
-        if (i > 1) {
+        if (i > 1) { // don't sort for first two levels
             teamMembers.sort((a, b) => a.name.localeCompare(b.name));
         }
     });
@@ -53,7 +53,7 @@ const Team: React.FC = () => {
             {Object.keys(groupedMembers).map((level) => (
                 <div key={level} className="team-level">
                     <div className="grid">
-                        {groupedMembers[parseInt(level)].map((member) => (
+                        {groupedMembers[parseInt(level)].map((member, index) => [
                             <div
                                 key={member.name}
                                 className="grid-item"
@@ -64,11 +64,20 @@ const Team: React.FC = () => {
                                     alt={member.name}
                                 />
                                 <div className="text-container">
-                                    <h3>{member.name}</h3>
+                                    {/* <h3>{member.name}</h3> */}
+                                    <p className="member-name">
+                                        {member.name.split(' ').map((part, index) => (
+                                            <span key={index}>
+                                                {part}
+                                                <br />
+                                            </span>
+                                        ))}
+                                    </p>
                                     <p className="role">{member.role}</p>
                                 </div>
-                            </div>
-                        ))}
+                            </div>,
+                            (index > 0 && index % 3 == 0) && <div key={`break_${index}`} className="grid-break"></div>
+                        ])}
                     </div>
                 </div>
             ))}

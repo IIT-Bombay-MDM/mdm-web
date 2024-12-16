@@ -43,10 +43,10 @@
     },
     {
         "name": "Om Wagh",
-        "role": "Project Technical Assistant",
+        "role": "Engineer",
         "description": "I am a B.E in E&Tc with honours in Data Science. I have worked upon Explainable AI methods and currently working to build a model for Identification of Internal Human Injury.",
         "image": "/assets/images/om.jpg",
-        "level": 2
+        "level": 3
     },
     {
         "name": "Sujal Bolia",

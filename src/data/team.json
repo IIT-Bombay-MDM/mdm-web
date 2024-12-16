@@ -7,27 +7,6 @@
         "level": 2
     },
     {
-        "name": "Sakshi Pandey",
-        "role": "Research Student",
-        "description": "I'm a MS in CSE student at the IIT Bombay, specializing in Intelligence Systems. My research advisor is Ganesh Ramakrishnan. I'm currently working on Image Synthesis and Diffusion models.",
-        "image": "/assets/images/person_placeholder.jpg",
-        "level": 3
-    },
-    {
-        "name": "Anand Patel",
-        "role": "Research Student",
-        "description": "I am a MS in CSE student at IIT-Bombay. I am working on project \"Suspicious Person Identification and Tracking\". My research focus is on \"Suspicious Behaviour Detection in Crowds\" using Deep Learning.",
-        "image": "/assets/images/person_placeholder.jpg",
-        "level": 3
-    },
-    {
-        "name": "Shasmith Krishna",
-        "role": "Research Student",
-        "description": "I am a B.Tech student in CSE at IIT Bombay. I have experience in Deep Learning algorithms for Computer Vision. My research focus is to generate image datasets for different image machine learning tasks.",
-        "image": "/assets/images/person_placeholder.jpg",
-        "level": 3
-    },
-    {
         "name": "Sakshi Srivastava",
         "role": "Engineer",
         "description": "I am a BTech student in CSE at AKTU. I am working on Explainable AI methods for Computer Vision and Drone use cases for Maharashtra Drone Mission. My research  focus is ML model development and Image Segmentation.",
@@ -64,10 +43,10 @@
     },
     {
         "name": "Om Wagh",
-        "role": "Engineer",
+        "role": "Project Technical Assistant",
         "description": "I am a B.E in E&Tc with honours in Data Science. I have worked upon Explainable AI methods and currently working to build a model for Identification of Internal Human Injury.",
         "image": "/assets/images/om.jpg",
-        "level": 3
+        "level": 2
     },
     {
         "name": "Sujal Bolia",

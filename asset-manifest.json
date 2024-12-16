@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/mdm-web/static/css/main.b670f795.css",
-    "main.js": "/mdm-web/static/js/main.1cdcbb1a.js",
-    "static/js/684.1221280d.chunk.js": "/mdm-web/static/js/684.1221280d.chunk.js",
+    "main.js": "/mdm-web/static/js/main.9647d4c6.js",
+    "static/js/451.d244442a.chunk.js": "/mdm-web/static/js/451.d244442a.chunk.js",
     "static/media/swarm.jpg": "/mdm-web/static/media/swarm.27fd1928cfb02115193c.jpg",
     "static/media/iitb.png": "/mdm-web/static/media/iitb.39e360a7ae787689cca3.png",
     "static/media/drone2.jpg": "/mdm-web/static/media/drone2.33b0aa4767389d4beea4.jpg",
     "index.html": "/mdm-web/index.html",
     "main.b670f795.css.map": "/mdm-web/static/css/main.b670f795.css.map",
-    "main.1cdcbb1a.js.map": "/mdm-web/static/js/main.1cdcbb1a.js.map",
-    "684.1221280d.chunk.js.map": "/mdm-web/static/js/684.1221280d.chunk.js.map"
+    "main.9647d4c6.js.map": "/mdm-web/static/js/main.9647d4c6.js.map",
+    "451.d244442a.chunk.js.map": "/mdm-web/static/js/451.d244442a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b670f795.css",
-    "static/js/main.1cdcbb1a.js"
+    "static/js/main.9647d4c6.js"
   ]
 }

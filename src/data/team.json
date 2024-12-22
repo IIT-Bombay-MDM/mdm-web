@@ -17,14 +17,14 @@
         "name": "Himanshu Patil",
         "role": "Engineer",
         "description": "I am a B.E in Computer Engineering student. My background involves research in Computer Vision, NLP and Generative AI.",
-        "image": "/assets/images/person_placeholder.jpg",
+        "image": "/assets/images/himanshu.jpeg",
         "level": 3
     },
     {
         "name": "Saurbh Singh Jamwal",
         "role": "Research Student",
         "description": "Student of MS by Research in CSE Department, IIT Bombay. My area of research is Computer Vision. Currently working on Image generation and Image processing techniques. Interested in combining Robotics and Artificial Intelligence.",
-        "image": "/assets/images/person_placeholder.jpg",
+        "image": "/assets/images/saurabh.jpg",
         "level": 3
     },
     {
@@ -43,17 +43,10 @@
     },
     {
         "name": "Om Wagh",
-        "role": "Engineer",
+        "role": "Project Technical Assistant",
         "description": "I am a B.E in E&Tc with honours in Data Science. I have worked upon Explainable AI methods and currently working to build a model for Identification of Internal Human Injury.",
         "image": "/assets/images/om.jpg",
         "level": 3
-    },
-    {
-        "name": "Sujal Bolia",
-        "role": "Project Technical Assistant",
-        "description": "I'm a Computer Science graduate from the University of British Columbia. I'm currently working on explainable AI and re-identification.",
-        "image": "/assets/images/sujal.jpg",
-        "level": 2
     },
     {
         "name": "Ganesh Ramakrishnan",
@@ -79,8 +72,8 @@
     {
         "name": "Nissim Kurle",
         "role": "Project Research Engineer",
-        "description": "todo",
-        "image": "/assets/images/person_placeholder.jpg",
+        "description": "Nissim, an MSc graduate in Data Science and Analytics from Cardiff University, is passionate about mathematical problem-solving and advanced computational research. His interests include the Shortest Vector Problem (SVP) and polynomial factorization over rational coefficients, which he explored in depth in his MSc dissertation. With a keen eye for innovation, he enjoys tackling complex challenges in mathematics and computing.",
+        "image": "/assets/images/nissim.jpeg",
         "level": 2
     }
 ]
